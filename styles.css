@@ -1,0 +1,115 @@
+/* Add your custom CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+}
+
+#appWrap {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#intro, #callFeedbackWrap, #chatWrap, #settings, #actionsWrap {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.light {
+    color: #666;
+}
+
+.separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#composeBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#compose {
+    flex: 1;
+    min-height: 40px;
+    overflow: auto;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+#placeholder {
+    color: #ccc;
+}
+
+.chat {
+    margin-bottom: 10px;
+}
+
+.chat .name {
+    font-weight: bold;
+}
+
+.chat .date {
+    font-size: 12px;
+    color: #999;
+}
+
+.chat .message {
+    margin-top: 5px;
+}
+
+/* Add more styles as needed */
